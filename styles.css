@@ -1,0 +1,366 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    /* border: 2px solid black;  */
+}
+
+.header {
+    background-image: url("./img/walp.jpg");
+    background-size: cover;
+    padding: 25px 200px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 170px;
+}
+
+.btn-nav {
+    background-color: #C9453B;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 36px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-inline: 15px;
+}
+
+.header-section {
+    max-width: 600px;
+
+}
+
+.header-section h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.header-section p {
+    max-width: 458px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 40px;
+
+}
+
+.btn {
+    background-color: #C9453B;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 17px 45px;
+    border: none;
+    margin-bottom: 244px;
+    cursor: pointer;
+}
+
+/* SCREEN №2 */
+
+.popular-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 120px;
+}
+
+.popular-text h2 {
+    margin-bottom:  50px;
+    font-size: 43px;
+}
+
+.popular-text p {
+    max-width: 735px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding-inline: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.popular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.popular-item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 10px; 
+    border-bottom: 1px solid rgb(231, 231, 231);
+    border-left:  1px solid rgb(231, 231, 231);
+    border-right: 1px solid rgb(231, 231, 231);
+    margin-bottom: 140px;
+}
+
+.shadow {
+    box-shadow: 0 0 8px rgba(209, 205, 205, 4);
+}
+
+.popular-item img {
+    margin-bottom: 30px;
+    
+}
+
+
+.popular-item h3 {
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 24px;
+    color: #000;
+
+}
+
+.popular-item p {
+    padding-inline: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* <!-- SCREEN №3 --> */
+
+.special-offers-all {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 930px;
+    overflow: hidden;
+}
+
+.special-offers-text {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.special-offers-text h2 {
+    margin-bottom: 50px;
+    font-size: 43px;
+}
+
+.special-offers-text p {
+    max-width: 735px;
+    text-align: center;
+    margin-bottom: 70px;
+    padding-inline: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.special-offers {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 70px; */
+    padding-bottom: 80px;
+}
+
+.slide-item {
+    margin-inline: 25px 20px;
+}
+
+
+/* special-offers cards */
+
+
+.grade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grade p {
+    margin-right: 20px;
+    line-height: 28px;
+}
+
+.grade img {
+    margin-right: 10px;
+}
+
+.grade a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* special-offers slider */
+
+
+.slider-btn {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.slider-btn button {
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+}
+
+.slider-pointers {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.slider-pointer {
+    width: 75px;
+    height: 5px;
+    border-radius: 10px;
+    background: rgba(201, 69, 59, 0.1);  
+}
+
+.active-pointer {
+    background-color: #C9453B;
+} 
+
+
+/* SCREEN №4 */
+
+.blog-news {
+    padding-bottom: 142px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-news-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blog-news-item {
+    width: 554px;
+}
+
+.blog-news-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-news-item p {
+    margin-bottom: 10px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.blog-news-item img {
+    margin-bottom: 35px;
+    margin-top: -7px;
+}
+
+.blog-news-item2 {
+    width: 509px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ /* Animation */
+
+    /* transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.3s ease 0s;  */
+}
+
+/* .blog-news-item2.active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}   */
+
+/* .active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+} */
+
+.blog-news-item2 img {
+    margin-right: 27px;
+    margin-top: 30px;
+}
+
+.blog-news-item2 h4 {
+    font-size: 20px;
+}
+
+.blog-news-item2 p {
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 28px;
+}
+
+/* FOOTER */
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: rgba(38, 148, 153, 0.04);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items a {
+    margin-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+}
+
+.footer-email {
+    padding-block: 7px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: serif;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.6);;
+}
+
+.footer-btn {
+    padding-block: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    background: #C9453B;
+}
